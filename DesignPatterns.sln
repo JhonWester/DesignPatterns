@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{98455189-7780-4C30-A45A-BB3D12044463}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{98455189-7780-4C30-A45A-BB3D12044463}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{EAFEA840-BE03-4462-BD1A-81846E66D586}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{EAFEA840-BE03-4462-BD1A-81846E66D586}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{1D5CFB17-03E3-4F9D-BB8D-02C1B0E10E2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{EAFEA840-BE03-4462-BD1A-81846E66D586}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAFEA840-BE03-4462-BD1A-81846E66D586}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAFEA840-BE03-4462-BD1A-81846E66D586}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D5CFB17-03E3-4F9D-BB8D-02C1B0E10E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D5CFB17-03E3-4F9D-BB8D-02C1B0E10E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D5CFB17-03E3-4F9D-BB8D-02C1B0E10E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D5CFB17-03E3-4F9D-BB8D-02C1B0E10E2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
